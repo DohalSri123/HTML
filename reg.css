@@ -1,0 +1,52 @@
+body{
+    background-image: url("./433.jpg");
+    background-size: cover;
+}
+.p{
+    background:linear-gradient(45deg,blueviolet,deeppink);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 30px;
+    margin: 50px auto;
+    width: 300px;
+}
+.rig h2{
+    font-size: 30px;
+    text-align: center;
+}
+.rig1 label{
+    display: block;
+    margin: 10px 0px;
+}
+.form-control{
+    width: 290px;
+    font-size: 18px;
+    outline: none;
+    height: 35px;
+    border:none
+    
+
+}
+.submit-btr{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: white;
+    padding: 15px;
+    background:linear-gradient(45deg,blueviolet,deeppink);
+    width: 290px;
+    border: none;
+    box-shadow: 0 5px 10px black;
+
+}
+.fa-user-circle{
+    font-size: 100px;
+    display:block;
+    text-align: center;
+    
+
+
+
+}
+.R3{
+    margin-top: 30px;
+}

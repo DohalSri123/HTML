@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(164, 221, 221);
+  }
+.main{
+  border: 2px solid azure;
+  width: 300px;
+  height:500px;
+  margin-left: 300px;
+  margin-top: 100px;
+  box-shadow: 10px 10px 10px rgb(103, 172, 241);
+  overflow: hidden;/* to hide overflow effect*/
+  position: relative;
+}
+.main img{
+  width: inherit;
+  height: inherit;
+  transition: all 5s;
+}
+.main:hover img{
+  transform: scale(1.5 ,1.5);
+}
+

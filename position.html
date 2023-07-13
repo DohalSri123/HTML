@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Position</title>
+    <style>
+        body{
+            height: 5000px;
+        }
+        .box{
+            width: 100px;
+            height:100px;
+            box-shadow: 0 0 5px black;
+        }
+        .box1{
+            background-color: aliceblue;
+            position: relative;
+            left: 200px;
+        }
+        .box2{
+            background-color: beige;
+            position: fixed;
+            right: 0;
+           
+        }
+        .box3{
+            background-color: bisque;
+            position: absolute;
+            left:200px;
+        }
+        .box4{
+            background-color: azure;
+            position: absolute;
+        }
+        .cont{
+            width: 500px;
+            height: 500px;
+            background-color: rgba(0,0,0,0.5);
+            position: relative;
+            left: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="cont">
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+    <div class="box box5"></div>
+
+</body>
+</html>
